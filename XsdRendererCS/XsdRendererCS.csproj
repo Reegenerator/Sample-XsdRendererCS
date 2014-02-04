@@ -71,6 +71,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="ContactInfo.cd" />
     <None Include="ContactInfo.xsd">
       <SubType>Designer</SubType>
       <rgenRenderers>&lt;%3fxml version="1.0" encoding="utf-16"%3f&gt;
