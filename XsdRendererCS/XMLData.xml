@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Person Name="Bill Gates" Age="23">
+
+  <Address Street="Rodeo Dr." Number="123" City="Los Angeles" State="CA" Country="United States" />
+  
+  <Phones>
+    <Phone>310-1234567</Phone>
+    <Phone>310-1111111</Phone>
+  </Phones>
+</Person>

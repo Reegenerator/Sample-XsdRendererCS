@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Person">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Address">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute type="xs:string" name="Street"/>
+                <xs:attribute type="xs:string" name="Number"/>
+                <xs:attribute type="xs:string" name="City"/>
+                <xs:attribute type="xs:string" name="State"/>
+                <xs:attribute type="xs:string" name="Country"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Phones">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Phone" maxOccurs="unbounded" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="Name"/>
+      <xs:attribute type="xs:int" name="Age"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
