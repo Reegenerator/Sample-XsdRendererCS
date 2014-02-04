@@ -47,6 +47,8 @@ namespace XsdRendererCS
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
             var stream = assembly.GetManifestResourceStream(assembly.GetName().Name + ".XMLData.xml");
             xmlSourceBox.Text = new StreamReader(stream).ReadToEnd();
+            parseXmlButton.PerformClick();
+            
         }
 
 

@@ -168,7 +168,7 @@
             // 
             this.addressBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.addressBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSource, "Address", true));
+            this.addressBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bindingSource, "CombinedAddress", true));
             this.addressBox.Location = new System.Drawing.Point(68, 64);
             this.addressBox.Name = "addressBox";
             this.addressBox.Size = new System.Drawing.Size(192, 20);

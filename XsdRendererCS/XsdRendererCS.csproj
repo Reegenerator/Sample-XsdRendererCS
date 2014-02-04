@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContactInfo.cs">
+      <DependentUpon>ContactInfo.xsd</DependentUpon>
+    </Compile>
     <Compile Include="ContactInfo.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>ContactInfo.xsd</DependentUpon>
